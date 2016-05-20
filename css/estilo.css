@@ -1,0 +1,40 @@
+body{
+	background: #485194;
+	color:white;
+}
+h1{
+	color:#D84618;
+}
+footer{
+	background: black;
+	color:white;
+	text-align: center;
+	font-size:18px;
+	font-family: arial;
+	font-weight: bold;
+}
+p{
+	background: white;
+	color:black;
+	font-size: 18px;
+}
+p>b{
+	color:red;
+}
+nav{
+	background: orange;
+	color:grey;
+	width: 500px;
+	display: inline-block;
+	text-align: right;
+}
+a{
+	color:white;
+	font-family: tahoma;
+	font-size:12px;
+	font-weight: bold;
+}
+li{
+	display: inline;
+	padding-right: 10px;
+}
