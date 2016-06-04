@@ -1,6 +1,8 @@
 body{
-	background: #0C1138;
 	color:white;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
+
 }
 h1{
 	color:#D84618;
@@ -10,7 +12,7 @@ footer{
 	color:white;
 	text-align: center;
 	font-size:18px;
-	font-family: arial;
+	font-family: 'Lobster', cursive;
 	font-weight: bold;
 }
 p{
@@ -37,4 +39,10 @@ a{
 li{
 	display: inline;
 	padding-right: 10px;
+}
+section{
+	background: blue;
+}
+figure,img{
+	float: right;
 }
