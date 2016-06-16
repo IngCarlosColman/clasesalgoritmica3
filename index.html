@@ -3,11 +3,12 @@
 <head>
 	<title>UniWEB</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="./javascript.js"></script>
 </head>
 <body background="imagenes/fondo.jpg">
 <header>
 	<figure>	
-		<img src="imagenes/UPE-logo.png" alt="" height="125px">
+		<img src="imagenes/UPE-logo.png" alt="" height="75px">
 	</figure>
 	<h1>UNIWEB - Sitio Web Universitaria</h1>
 </header>
@@ -19,27 +20,50 @@
 		<li><a href="#" title="fotos">GALERIA</li></a>
 	</ul>
 </nav>
+
 <section>
+<div align="center">
+	<script>
+		var n = 7;
+		var c = 1;
+		var r = 0;
+
+		document.write("<b>Tabla de Multiplicar</b><br>");
+
+		while(c <= 10)
+		{
+			r = n*c;
+			document.write(n+" X "+c+ " = "+r+"<hr>");
+			c++;
+		}
+
+
+	</script>
+</div>
+<div align="center">
+	<script>
+		document.write("..>>::::HISTAGRAMA::::<<..<br>");
+		var a=0;
+		var b=0;
+		var c=0;
+		while(a<=10)
+		{
+		 	while(b<=c)
+		 	{
+		 			document.write(" X ");	
+		 			b++;
+		 	}
+		 	c+=2;
+		 	b=0;
+		 	document.write("<br>");
+		 	a++;
+		 	
+		}
+	</script>
+</div>
+
+
 	
-	<article>
-		<p><b>Lorem ipsum </b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</article>
-
-	<article>
-		<p><b>Lorem ipsum </b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</article>
-
-
 </section>
 
 
