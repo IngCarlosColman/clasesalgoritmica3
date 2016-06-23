@@ -6,9 +6,18 @@
 <body>
 
 <script>
-	var nota=prompt("Ingrese Nota");
-	confirm("Su nota registrada es: "+nota);
-
+	var tabla = prompt("Ingrese Numero a Calcular su Tabla de Multiplicar","0");
+	var cont=0;
+	var imprimir="Tabla de Multiplicar de "+tabla+"\n";
+	
+	while (cont<10)
+	{
+		cont++;
+		imprimir = imprimir + tabla + " x " + cont + "=" + tabla*cont + "\n";
+	}
+	
+	alert(imprimir);
+	
 </script>
 </body>
 </html>
