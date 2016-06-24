@@ -8,15 +8,15 @@
 <script>
 	var tabla = prompt("Ingrese Numero a Calcular su Tabla de Multiplicar","0");
 	var cont=0;
-	var imprimir="Tabla de Multiplicar de "+tabla+"\n";
+	var imprimir="<h2>Tabla de Multiplicar de "+tabla+"</h2><br>";
 	
 	while (cont<10)
 	{
 		cont++;
-		imprimir = imprimir + tabla + " x " + cont + "=" + tabla*cont + "\n";
+		imprimir = imprimir + tabla + " x " + cont + "=" + tabla*cont + "<br>";
 	}
 	
-	confirm(imprimir);
+	document.write(imprimir.toUpperCase());
 	
 </script>
 </body>
