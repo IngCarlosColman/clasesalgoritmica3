@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ruleta Electronica</title>
+</head>
+<body>
+	<script>
+		
+		var num = 0;
+		var cont = 0;
+
+		while (cont < 10)
+		{
+			cont++;
+			num = Math.random()*36;
+			num = Math.round(num);//redondeo normal
+			num = Math.ceil(num);//redondeo hacia arriba
+			num = Math.floor(num);//redondeo hacia abajo
+						
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<HTML>
+	<HEAD>
+		<TITLE>EJEMPLO DEL COMANDO this</TITLE>
+		<SCRIPT LANGUAGE="text/javascript">
+		function cambiar(form){
+			var indice = form.cap.selectedIndex
+			if(indice==0){var archivo="cap1.htm"}
+				if(indice==1){var archivo="cap2.htm"}
+					if(indice==2){var archivo="cap3.htm"}
+						window.open(archivo,'capitulos')
+					window.open('marcador.htm','resultados')
+				}
+		</SCRIPT>
+	</HEAD>
+	<BODY>
+			<CENTER>
+				<FORM>
+					<SELECT NAME="cap" SIZE=1 onBlur="cambiar(this.form)">
+					<OPTION VALUE=1>1. HISTORIA Y CONCEPTOS DE LA AP</OPTION>
+					<OPTION VALUE=2>2. MÉTODOS EN PATOLOGÍA</OPTION>
+					<OPTION VALUE=3>3. PATOLOGÍA MOLECULAR</OPTION>
+					<SELECT>
+					</FORM>
+			</CENTER>
+	</BODY>
+</HTML>

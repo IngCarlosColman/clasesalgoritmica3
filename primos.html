@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numeros Primos</title>
+</head>
+<body>
+	<script>
+		var a = 0;
+		var c = 0;
+		var cp = 0;
+		document.write("..>>NUMEROS PRIMOS<<..<BR>")
+		while(c < 100)
+		{
+			c++;
+			while(a < c)
+			{
+				a++;
+				if(c % a == 0)
+				{
+					cp++;
+				}
+			}
+			if(cp == 2)
+			{
+				document.write(c + " Es un numero Primo <br>");
+			}
+			a = 0;
+			cp = 0;
+		}
+
+	</script>
+</body>
+</html>
